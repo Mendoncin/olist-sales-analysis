@@ -1,0 +1,17 @@
+
+# Ambiente Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Credenciais
+.env
+
+# Dados locais
+/data/raw/*
+/data/processed/*
+
+# Preservar as pastas no Git
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
